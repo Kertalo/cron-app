@@ -7,9 +7,9 @@ export default function Everyyear({ onChange, values }) {
 
   return (
     <>
-      <InputMonth onChange={ onChange.month } value={ values.month }/>
-      <InputDayOfMonth onChange={ onChange.dayOfMonth } value={ values.dayOfMonth }/>
-      <InputTime onChange={ onChange.time } value={ values.time }/>
+      <InputMonth value={ values.month } onChange={ onChange.month }/>
+      <InputDayOfMonth value={ values.dayOfMonth } onChange={ onChange.dayOfMonth }/>
+      <InputTime id='0' value={ values.time } onChange={ onChange.time }/>
     </>
   );
 }

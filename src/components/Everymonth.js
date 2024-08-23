@@ -6,8 +6,8 @@ export default function Everymonth({ onChange, values }) {
 
   return (
     <>
-      <InputDayOfMonth onChange={ onChange.dayOfMonth } value={ values.dayOfMonth }/>
-      <InputTime onChange={ onChange.time } value={ values.time }/>
+      <InputDayOfMonth value={ values.dayOfMonth } onChange={ onChange.dayOfMonth }/>
+      <InputTime id='0' value={ values.time } onChange={ onChange.time }/>
     </>
   );
 }

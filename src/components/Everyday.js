@@ -12,7 +12,7 @@ export default function Everyday({ values, onChange }) {
       newTimes[i] = times[i].slice(0, 3) + newMinute;
     newTimes[e.target.id] = e.target.value;
     setTimes(newTimes);
-    onChange(e);
+    onChange.time(e);
   }
 
   const handleClick=(e)=>{

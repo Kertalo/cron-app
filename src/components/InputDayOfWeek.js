@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+export const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
 
 export default function InputDayOfWeek({ onChange, value }) {
   const [day, setDay] = useState(value);

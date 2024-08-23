@@ -6,8 +6,8 @@ export default function Everyweek({ onChange, values }) {
 
   return (
     <>
-      <InputDayOfWeek onChange={ onChange.dayOfWeek } value={ values.dayOfWeek }/>
-      <InputTime onChange={ onChange.time } value={ values.time }/>
+      <InputDayOfWeek value={ values.dayOfWeek } onChange={ onChange.dayOfWeek }/>
+      <InputTime id='0' value={ values.time } onChange={ onChange.time }/>
     </>
   );
 }

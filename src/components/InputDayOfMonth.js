@@ -12,7 +12,7 @@ export default function InputDayOfMonth({ onChange, value }) {
   for (let i = 0; i < 31; i++) {
     daysHTML.push(<option key={ 'day' + i } value={ i + 1 } id={ 'day' + i }>{ i + 1 }</option>);
   }
-
+  console.log(day);
   return (
     <>
       <select id="month" value={ day } onChange={ onChangeDay }>
